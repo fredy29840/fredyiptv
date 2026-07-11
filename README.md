@@ -6,10 +6,12 @@ APK de l'app IPTV perso (client Xtream Codes / M3U, usage privé famille).
 
 Dans l'app **Downloader**, taper simplement le code :
 
-> ## `9436702`
+| Code | APK | Pour |
+|---|---|---|
+| **`9436702`** | arm64-v8a | TV/box 64 bits — **cas général, essayer d'abord** |
+| **`9562453`** | armeabi-v7a | TV/box 32 bits ancienne (si « app non installée » avec l'autre) |
 
-→ télécharge `fredyiptv-arm64-v8a.apk` (TV/box 64 bits, cas général).
-Équivalent navigateur : https://aftv.news/9436702
+Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
 ## Téléchargement (v0.1.0)
 
