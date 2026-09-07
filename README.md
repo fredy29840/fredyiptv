@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.1.0)
+## Téléchargement (v0.2.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
