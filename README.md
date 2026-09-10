@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.2.0)
+## Téléchargement (v0.2.1)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -32,8 +32,16 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
 
+## Nouveautés v0.2.1
+
+- Les listes ne repartent plus au début : en revenant d'un film, d'une série ou
+  d'une chaîne, on retrouve sa place **et** la vignette d'où l'on vient.
+- Écran Profils : formulaire navigable à la télécommande (HAUT/BAS entre les
+  champs, sans passer par le clavier), état d'abonnement lisible et bouton
+  « Activer » de nouveau visible sur un profil inactif.
+
 ## Notes
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.1.0 (versionCode 1).
+- Version : 0.2.1 (versionCode 3).
