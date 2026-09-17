@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.2.3)
+## Téléchargement (v0.2.4)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,14 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.2.4
+
+- Logo **BREIZH IPTV** au démarrage.
+- Erreur **504** (serveur surchargé) : l'app réessaie toute seule 2 fois en quelques
+  secondes avant d'afficher l'erreur.
+- Écran Profils plus rapide : l'état d'abonnement est gardé 15 min au lieu d'être
+  redemandé à chaque ouverture.
 
 ## Nouveautés v0.2.3
 
@@ -62,4 +70,4 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.2.3 (versionCode 5).
+- Version : 0.2.4 (versionCode 6).
