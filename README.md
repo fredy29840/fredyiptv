@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.2.4)
+## Téléchargement (v0.2.5)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,15 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.2.5
+
+- Messages d'erreur clairs au lieu de codes bruts : « Serveur injoignable »,
+  « Le serveur ne répond pas », « Accès refusé : identifiants ou abonnement expiré »…
+- Abonnement expiré : l'app affiche **« Abonnement expiré le … »** avec la date,
+  dès la connexion et lors des mises à jour.
+- « Mettre à jour » indique la cause d'un échec, ex. « chaînes (délai dépassé) ».
+- Écran Profils : un serveur en panne n'y bloque plus l'affichage (10 s maximum).
 
 ## Nouveautés v0.2.4
 
@@ -70,4 +79,4 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.2.4 (versionCode 6).
+- Version : 0.2.5 (versionCode 7).
