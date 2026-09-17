@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.2.1)
+## Téléchargement (v0.2.2)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -32,6 +32,15 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
 
+## Nouveautés v0.2.2
+
+- Films et Séries : en **restant appuyé** sur DROITE/GAUCHE, les affiches
+  défilent toutes seules (et accélèrent si on garde la touche enfoncée).
+- Recherche : les catégories masquées n'apparaissent plus dans les résultats,
+  et l'écran s'ouvre sur les onglets Chaînes / Films / Séries (HAUT pour écrire).
+- Diagnostics réseau : nouveau **test de débit** (serveur IPTV vs ligne internet)
+  et écran TV sur deux colonnes, entièrement visible.
+
 ## Nouveautés v0.2.1
 
 - Les listes ne repartent plus au début : en revenant d'un film, d'une série ou
@@ -44,4 +53,4 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.2.1 (versionCode 3).
+- Version : 0.2.2 (versionCode 4).
