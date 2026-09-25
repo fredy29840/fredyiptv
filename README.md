@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.3.0)
+## Téléchargement (v0.4.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,38 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.4.0
+
+Guide TV :
+- **Un seul appui OK** lance la chaîne dans l'aperçu (il en fallait deux), **avec le son**.
+  L'aperçu se met en pause quand on quitte l'appli.
+- La grille reste calée sur l'heure en cours quand on monte ou descend dans les chaînes.
+- Nouveau groupe **« Chaînes récentes »**.
+- Touche **MENU** (ou OK maintenu) sur un groupe : bloquer, masquer, gérer les groupes.
+
+Contrôle parental façon TiviMate :
+- Code PIN à la **roulette** (HAUT/BAS pour chaque chiffre, OK pour valider) ou au clavier.
+- Changer le code PIN, durée avant de redemander le code (par défaut : toujours demander),
+  code PIN exigé pour les Paramètres, les listes de lecture, l'EPG, les options de chaîne
+  et de groupe.
+- Le contenu +18 n'apparaît plus dans l'Historique ni dans les chaînes récentes.
+
+Paramètres, beaucoup plus complets :
+- **Lecteur** : pas de la barre de progression et des boutons avance/retour, délai
+  d'affichage des panneaux, horloge permanente, résolution réelle ou « FHD ».
+- **Apparence** : aperçu, noms de chaînes, titres sur 2 lignes, progression des
+  programmes, trait de l'heure actuelle, tri des groupes, cache des logos.
+- **Listes de lecture** : mise à jour automatique (12 h à 1 semaine) ou au démarrage.
+- **Télécommande** : touches de couleur réglables (rouge = Favoris, bleue = Paramètres),
+  restaurer les réglages par défaut.
+- **Avancés** : historique des recherches, chaînes favorites d'abord, rappels
+  (délai, ouverture directe de la chaîne).
+- **Décalage audio** dans le menu Pistes du lecteur.
+
+Films et séries :
+- « Pour vous » tient compte des genres regardés et de la note.
+- Épisode suivant / précédent dans le lecteur, badges de résolution et de son, horloge.
 
 ## Nouveautés v0.3.0
 
@@ -94,4 +126,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.3.0 (versionCode 8).
+- Version : 0.4.0 (versionCode 9).
