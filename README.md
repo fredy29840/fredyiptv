@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.4.0)
+## Téléchargement (v0.5.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,36 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.5.0
+
+Paramètres façon TiviMate :
+- **Plusieurs sources EPG**, reconnues aussi par le nom de la chaîne : guide plus complet.
+- **Fréquence d'images automatique** (l'écran se cale sur la vidéo, 25 i/s → 50 Hz).
+- **Décodeurs vidéo et audio** réglables séparément, avec repli automatique
+  matériel ↔ logiciel si l'un plante. Piste audio surround choisie par défaut.
+- **Couleurs du thème** et **transparence** de l'interface.
+- Plafond de résolution jusqu'à la **4K**, tri des chaînes, « Retour → programmes en cours ».
+- **Replay** : durée et décalage de l'heure de début par profil.
+- **Sauvegarde** des réglages vers un partage réseau (SMB).
+
+Films et séries :
+- **Pouces 👍 / 👎** sur les fiches, pris en compte par « Pour vous ».
+- **Appui long sur un groupe** : bloquer, masquer, gérer les groupes (comme dans le guide).
+
+Contrôle parental :
+- Les **groupes bloqués disparaissent** des listes (et leurs chaînes de « Toutes » et
+  « Favoris ») tant que le code n'est pas saisi. Menu d'un groupe →
+  « Afficher les groupes bloqués » + code PIN pour les faire revenir.
+- Après le bon code, on reste sur la catégorie débloquée (il fallait le retaper sans fin).
+- L'aperçu ne relance plus une chaîne bloquée et se coupe quand son groupe se reverrouille.
+- L'appui long sur un groupe ne le bloque plus par erreur.
+
+Lecteur :
+- **Pause quand on quitte l'appli** (Accueil, Source → TV…) : plus de son en fond.
+  Reprise au retour, au direct pour les chaînes.
+- Suppression de l'incrustation (PIP), inutile sur TV.
+- Enregistrements : lecture des fichiers avec espaces, suppression par appui long.
 
 ## Nouveautés v0.4.0
 
@@ -126,4 +156,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.4.0 (versionCode 9).
+- Version : 0.5.0 (versionCode 10).
