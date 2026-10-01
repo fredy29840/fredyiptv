@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.5.0)
+## Téléchargement (v0.6.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,25 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.6.0
+
+Plusieurs utilisateurs sur le même serveur, façon Netflix :
+- Écran **« Qui regarde ? »** au lancement (dès 2 utilisateurs).
+- Chacun a **ses favoris, son historique, « Continuer à regarder », ses pouces
+  (donc « Pour vous »), ses chaînes récentes et ses recherches**. Le catalogue reste commun.
+- **Pastille** de l'utilisateur dans le menu de gauche : OK pour changer, ajouter,
+  renommer ou supprimer un utilisateur.
+- Les favoris et l'historique d'avant deviennent ceux du premier utilisateur.
+
+Profil enfant :
+- Groupes +18 et bloqués **toujours masqués**, aucun déverrouillage, VOSTFR masqués.
+- **PIN enfant** (distinct du code PIN des catégories) pour quitter le profil ou gérer
+  les utilisateurs. Paramètres sous code.
+
+Films et séries :
+- Nouveau réglage **« Masquer les VOSTFR »** (Paramètres → Apparence), activé par défaut :
+  les films/séries en VO sous-titrée rangés dans les catégories FR disparaissent.
 
 ## Nouveautés v0.5.0
 
@@ -156,4 +175,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.5.0 (versionCode 10).
+- Version : 0.6.0 (versionCode 11).
