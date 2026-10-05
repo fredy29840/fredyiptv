@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.6.0)
+## Téléchargement (v0.7.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,31 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.7.0
+
+Chaînes :
+- **Masquer des chaînes** : appui long sur un groupe → « Masquer des chaînes », un
+  interrupteur par chaîne (le même écran sert à les réafficher). Ou appui long sur une
+  chaîne → « Masquer la chaîne ». Une chaîne masquée disparaît du guide, de la recherche,
+  des favoris et du zapping. Propre à chaque utilisateur.
+  Tout réafficher : Paramètres → Apparence → « Réafficher les chaînes masquées ».
+
+Lecteur :
+- Nouveau réglage **« Langue audio préférée »** (Paramètres → Lecteur) : un film ou une
+  série multi-langue démarre dans cette langue. Si elle n'existe pas en audio, ses
+  sous-titres sont activés.
+- Lecteur VLC : **HDR et HLG** de nouveau actifs (films 4K et chaînes en direct),
+  **badges de qualité** affichés aussi en direct, piste surround par défaut reconnue.
+
+Films et séries :
+- Rangée **« Pour vous » dans Séries**, d'après les genres regardés et les pouces 👍 / 👎.
+- **Affiches manquantes** retrouvées (plusieurs milliers de séries et films).
+- Monter ou descendre dans les catégories ne saute plus dans les affiches après être
+  revenu d'une fiche.
+
+Sauvegarde :
+- Les **pouces 👍 / 👎** et les **chaînes masquées** font partie de la sauvegarde.
 
 ## Nouveautés v0.6.0
 
@@ -175,4 +200,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.6.0 (versionCode 11).
+- Version : 0.7.0 (versionCode 12).
