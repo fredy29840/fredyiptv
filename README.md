@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.7.0)
+## Téléchargement (v0.7.1)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,20 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.7.1
+
+Guide TV :
+- **GAUCHE recule dans le temps** : après avoir avancé dans la grille, GAUCHE revient en
+  arrière par pas de 30 min au lieu de renvoyer aux catégories.
+- Sur une chaîne **avec replay**, GAUCHE continue dans le passé (jusqu'à 3 h) : les
+  programmes déjà diffusés sont accessibles, avec « Regardez depuis le début ».
+- Plus de **faux programmes** sur les créneaux vides et les séparateurs du serveur
+  (« NO MATCH », « ##### … ##### »). Faire « Mettre à jour » une fois après l'installation.
+
+Contrôle parental :
+- **Réactivé à chaque ouverture** de l'appli : s'il avait été désactivé, il se remet en
+  route et redemande le code PIN.
 
 ## Nouveautés v0.7.0
 
@@ -200,4 +214,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.7.0 (versionCode 12).
+- Version : 0.7.1 (versionCode 13).
