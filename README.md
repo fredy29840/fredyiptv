@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.7.1)
+## Téléchargement (v0.8.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,35 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.8.0
+
+Enregistrements :
+- **Programmer un enregistrement** depuis le guide : MENU sur un programme à venir →
+  « Programmer l'enregistrement ». Il démarre tout seul à l'heure (2 min avant, 5 min de
+  marge à la fin), même appli fermée. Une pastille ● rouge marque le programme.
+- **Enregistrement manuel** pour les chaînes sans guide : MENU → « Programmer un
+  enregistrement… », jour, heure et durée réglés avec GAUCHE / DROITE.
+- **« Enregistrer maintenant »** aussi sur une case « Pas d'information ».
+- Liste **« Prévus »** en tête de l'écran Enregistrements (OK pour annuler).
+- Au démarrage d'un enregistrement programmé, la lecture en cours est coupée pour lui
+  laisser la connexion (abonnement à 1 connexion).
+- Chaque utilisateur (« Qui regarde ? ») ne voit que **ses** enregistrements ; un profil
+  enfant ne voit plus ceux des autres.
+
+Guide TV :
+- **Badge de qualité** SD / HD / FHD / 4K à côté du nom de la chaîne : en contour quand il
+  vient du nom, plein une fois la chaîne regardée (qualité réelle).
+- **Renommer une chaîne** : MENU → « Renommer » (par utilisateur).
+- **Déplacer une chaîne** dans son groupe : MENU → « Déplacer », HAUT / BAS puis OK. Le
+  zapping CH+ / CH- suit le nouvel ordre. « Ordre d'origine des chaînes » dans les options
+  du groupe pour revenir à l'ordre du serveur.
+
+Lecteur :
+- Badge **HDR10 / HLG / Dolby Vision** dans le bandeau (lecteur par défaut).
+
+⚠️ Après cette version, ne pas réinstaller une version plus ancienne par-dessus : la base
+de l'appli a changé.
 
 ## Nouveautés v0.7.1
 
@@ -214,4 +243,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.7.1 (versionCode 13).
+- Version : 0.8.0 (versionCode 14).
