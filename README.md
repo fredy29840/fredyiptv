@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.8.0)
+## Téléchargement (v0.8.1)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,24 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.8.1
+
+Enregistrements, réveil, rappels :
+- Sur les TV récentes (Android 12 et plus), l'appli **se fermait** en programmant un
+  enregistrement, un réveil, un minuteur de veille ou un rappel de programme. Corrigé.
+- Un enregistrement continue désormais **TV en veille et appli quittée** (il s'arrêtait
+  au bout de quelques minutes), et supporte mieux les coupures réseau.
+
+⚠️ TV sous **Android 14 ou plus** : en veille, Android coupe le réseau des applis
+installées à part, l'enregistrement s'arrête au bout de 10 s. À régler une fois par TV,
+depuis un ordinateur avec ADB :
+`adb shell settings put global low_power_standby_enabled 0`
+
+⚠️ **Réveil** (allumer la TV sur une chaîne à l'heure) : sur Android 10 et plus, autoriser
+l'appli à « s'afficher par-dessus les autres applis » (Paramètres → Applis → Accès spécial
+aux applis), sinon la TV reste en veille. Ou, par ADB :
+`adb shell appops set com.fred.iptv SYSTEM_ALERT_WINDOW allow`
 
 ## Nouveautés v0.8.0
 
@@ -243,4 +261,4 @@ Nouvelle interface TV inspirée de TiviMate :
 
 - Signé clé debug — distribution privée uniquement, pas de Play Store.
   Une mise à jour s'installe par-dessus sans perte de données.
-- Version : 0.8.0 (versionCode 14).
+- Version : 0.8.1 (versionCode 15).
