@@ -1,0 +1,14 @@
+{
+  "versionCode": 16,
+  "versionName": "0.8.2",
+  "notes": "Nouveau : Paramètres → Général → « Rechercher une mise à jour ».",
+  "downloader": {
+    "arm64-v8a": "9436702",
+    "armeabi-v7a": "9562453"
+  },
+  "apk": {
+    "arm64-v8a": "https://github.com/fredy29840/fredyiptv/raw/main/apk/fredyiptv-arm64-v8a.apk",
+    "armeabi-v7a": "https://github.com/fredy29840/fredyiptv/raw/main/apk/fredyiptv-armeabi-v7a.apk",
+    "x86_64": "https://github.com/fredy29840/fredyiptv/raw/main/apk/fredyiptv-x86_64.apk"
+  }
+}

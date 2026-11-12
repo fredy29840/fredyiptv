@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.8.1)
+## Téléchargement (v0.8.2)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,14 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.8.2
+
+- **Rechercher une mise à jour** : Paramètres → Général → Application. L'appli dit si une
+  version plus récente est sortie, avec ses nouveautés et le code Downloader à utiliser.
+  Elle vérifie aussi d'elle-même au lancement (une fois par jour) et prévient par un court
+  message.
+- Rien d'autre ne change par rapport à la v0.8.1.
 
 ## Nouveautés v0.8.1
 
