@@ -1,7 +1,7 @@
 {
-  "versionCode": 17,
-  "versionName": "0.9.0",
-  "notes": "Contrôle parental renforcé, bascule auto ExoPlayer ↔ VLC, mise à jour du serveur plus rapide, guide fusionné selon le serveur.",
+  "versionCode": 18,
+  "versionName": "0.9.1",
+  "notes": "Mise à jour depuis l'appli : Paramètres → Général → « Installer la version ». Dernière mise à jour à faire par Downloader.",
   "downloader": {
     "arm64-v8a": "9436702",
     "armeabi-v7a": "9562453"

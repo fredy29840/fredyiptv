@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.9.0)
+## Téléchargement (v0.9.1)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,18 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.9.1
+
+- **Mise à jour depuis l'appli** : Paramètres → Général → « Rechercher une mise à jour »,
+  puis « Installer la version … ». L'appli télécharge la nouvelle version et ouvre
+  l'écran Android « Installer ? » : il reste à confirmer. Profils et historique gardés.
+- La première fois, Android demande d'autoriser BREIZH IPTV à **installer des applis
+  inconnues** : activer une seule fois. Sur certaines TV (Android 8 à 11), l'appli se
+  ferme à ce moment : la rouvrir, le téléchargement reprend seul.
+  Fire TV : Paramètres → Ma Fire TV → Options pour les développeurs → Installer des
+  applis inconnues.
+- Cette version s'installe encore par **Downloader** ; les suivantes, depuis l'appli.
 
 ## Nouveautés v0.9.0
 
