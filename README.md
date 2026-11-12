@@ -13,7 +13,7 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.8.2)
+## Téléchargement (v0.9.0)
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +31,31 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.9.0
+
+Contrôle parental :
+- **« Ma liste »** ne montre plus les favoris d'un groupe verrouillé.
+- **P+ / P-** et le guide sautent les groupes verrouillés.
+- Une **reco** vers un groupe verrouillé demande le code PIN (refusée sur téléphone).
+- Après **5 codes faux**, nouvel essai possible au bout de 30 s.
+
+Lecteur :
+- **Bascule automatique** ExoPlayer ↔ VLC quand un flux refuse de se lire
+  (message « Lecture via VLC » / « Lecture via ExoPlayer »).
+- **Son** : l'appli rend la main quand une autre appli joue du son, et reprend au retour.
+- Un **film coupé par le réseau** reprend tout seul où il en était.
+- La TV ne se met plus en veille pendant l'**aperçu** d'une chaîne.
+
+Mise à jour du serveur et guide :
+- **Plus rapide** : seules les chaînes, films et séries modifiés sont réécrits.
+- Option **« groupes visibles seulement »** (Paramètres → Apparence) : les groupes masqués
+  ne sont plus chargés, utile sur les gros serveurs.
+- **Guide fusionné** choisi selon le serveur du profil.
+
+Divers :
+- Séries : l'entrée « Historique » est toujours là, GAUCHE et la catégorie sont gardées.
+- Enregistrements : avertissement si la veille basse consommation d'Android 14 est active.
 
 ## Nouveautés v0.8.2
 
