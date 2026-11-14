@@ -1,7 +1,7 @@
 {
-  "versionCode": 19,
-  "versionName": "0.9.2",
-  "notes": "DNS chiffré : contourne les blocages de serveur par la box (Free). Guide : chaînes « NO MATCH » écartées.",
+  "versionCode": 20,
+  "versionName": "0.9.3",
+  "notes": "Tablette : même interface que la TV, au doigt (contrôle parental, Paramètres, zapping par glissement). Téléphone : boutons de chaîne réparés.",
   "downloader": {
     "arm64-v8a": "9436702",
     "armeabi-v7a": "9562453"

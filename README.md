@@ -36,6 +36,16 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
 
+## Nouveautés v0.9.3 (mise à jour depuis l'appli seulement)
+
+- **Tablette** : même interface que la TV (guide, Films, Séries, enregistrements, tous les
+  Paramètres, **contrôle parental**), utilisable au doigt : toucher = afficher les
+  commandes du lecteur, glisser vers le haut / le bas = chaîne suivante / précédente,
+  toucher ou glisser la barre de progression pour avancer dans un film, appui long =
+  menu (comme l'appui long OK de la télécommande), code PIN au clavier.
+- **Téléphone** : boutons de changement de chaîne qui marchent, commandes du lecteur TV.
+- Mise à jour depuis l'appli aussi sur tablette et téléphone.
+
 ## Nouveautés v0.9.2 (mise à jour depuis l'appli seulement)
 
 - **DNS chiffré** : l'appli trouve les serveurs par DNS chiffré (Cloudflare, puis Google),
