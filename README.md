@@ -13,7 +13,11 @@ Dans l'app **Downloader**, taper simplement le code :
 
 Équivalents navigateur : https://aftv.news/9436702 · https://aftv.news/9562453
 
-## Téléchargement (v0.9.1)
+## Téléchargement Downloader (v0.9.1)
+
+Ces fichiers restent en **0.9.1** : première installation seulement. Les versions
+suivantes s'installent depuis l'appli (Paramètres → Général → « Installer la version »),
+qui les télécharge dans `apk/maj/`.
 
 | Appareil | APK | Lien direct |
 |---|---|---|
@@ -31,6 +35,14 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
    (Paramètres → Applications → Accès spécial → Installer apps inconnues).
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
+
+## Nouveautés v0.9.2 (mise à jour depuis l'appli seulement)
+
+- **DNS chiffré** : l'appli trouve les serveurs par DNS chiffré (Cloudflare, puis Google),
+  plus par le DNS de la box. Contourne les blocages de certains fournisseurs (Free :
+  « Réponse illisible : pas un panel Xtream »). Lecteur VLC non couvert.
+- Guide : les chaînes « NO MATCH » (créneaux d'événement vides) sont écartées, et
+  l'aperçu ne se lance plus seul à l'ouverture quand le contrôle parental est actif.
 
 ## Nouveautés v0.9.1
 
