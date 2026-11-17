@@ -36,6 +36,15 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
 
+## Nouveautés v0.9.5 (mise à jour depuis l'appli seulement)
+
+- **Choix du serveur depuis le menu** : item « Serveur : … » (dès 2 serveurs), OK ouvre la
+  liste, OK sur un serveur bascule tout de suite, sans tout recharger. Profil enfant : PIN.
+- Écran des serveurs : OK sur toute la ligne active le serveur ; suppression confirmée,
+  le dernier serveur ne se supprime plus (utiliser « Déconnexion »).
+- **Lecteur** : après un changement de chaîne (CH+ / CH-), une coupure ou « Réessayer »
+  ne ramène plus sur la chaîne de départ.
+
 ## Nouveautés v0.9.4 (mise à jour depuis l'appli seulement)
 
 - **Plusieurs serveurs sur la même TV** : les groupes, chaînes, films et séries d'un serveur

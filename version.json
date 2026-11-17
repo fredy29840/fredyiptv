@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "0.9.4",
-  "notes": "Plusieurs serveurs : les groupes et séries d'un serveur ne disparaissent plus quand un autre est mis à jour. Guide limité aux groupes choisis. Plus de mise à jour en boucle au démarrage.",
+  "versionCode": 22,
+  "versionName": "0.9.5",
+  "notes": "Choix du serveur depuis le menu (« Serveur : … »), bascule immédiate sans tout recharger. Après un changement de chaîne, une coupure ne ramène plus sur la chaîne de départ. Suppression d'un serveur confirmée.",
   "downloader": {
     "arm64-v8a": "9436702",
     "armeabi-v7a": "9562453"
