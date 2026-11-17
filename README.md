@@ -36,6 +36,12 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
 
+## Nouveautés v0.9.6 (mise à jour depuis l'appli seulement)
+
+- **Plus rapide** : démarrage et premiers défilements accélérés (profil de précompilation
+  pour le guide, les chaînes et la recherche). Le gain complet arrive après la première
+  nuit, quand Android a recompilé l'appli.
+
 ## Nouveautés v0.9.5 (mise à jour depuis l'appli seulement)
 
 - **Choix du serveur depuis le menu** : item « Serveur : … » (dès 2 serveurs), OK ouvre la

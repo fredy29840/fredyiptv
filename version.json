@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "versionName": "0.9.5",
-  "notes": "Choix du serveur depuis le menu (« Serveur : … »), bascule immédiate sans tout recharger. Après un changement de chaîne, une coupure ne ramène plus sur la chaîne de départ. Suppression d'un serveur confirmée.",
+  "versionCode": 23,
+  "versionName": "0.9.6",
+  "notes": "Démarrage et défilement plus rapides : l'appli est précompilée pour les écrans les plus utilisés (guide, chaînes, recherche).",
   "downloader": {
     "arm64-v8a": "9436702",
     "armeabi-v7a": "9562453"
