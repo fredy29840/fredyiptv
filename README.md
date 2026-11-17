@@ -36,6 +36,18 @@ En cas de doute sur l'architecture : prendre **arm64-v8a** d'abord ; si
 3. Entrer l'URL du lien direct ci-dessus (arm64-v8a en général).
 4. Installer, ouvrir, se connecter au serveur.
 
+## Nouveautés v0.9.4 (mise à jour depuis l'appli seulement)
+
+- **Plusieurs serveurs sur la même TV** : les groupes, chaînes, films et séries d'un serveur
+  ne sont plus écrasés par ceux d'un autre quand les numéros se recoupent (groupes ou
+  séries qui disparaissaient). Après la mise à jour, faire « Mettre à jour » sur chaque
+  profil pour retrouver ce qui avait disparu.
+- **Guide** : Paramètres → EPG → « Groupes du guide » pour ne charger les programmes que
+  des groupes choisis ; sources de guide par défaut pour tout serveur.
+- Mise à jour automatique : ne se relance plus à chaque démarrage après une mise à jour
+  coupée ou en échec.
+- ⚠️ La base passe en v18 : ne pas réinstaller la 0.9.3 ou plus ancienne par-dessus.
+
 ## Nouveautés v0.9.3 (mise à jour depuis l'appli seulement)
 
 - **Tablette** : même interface que la TV (guide, Films, Séries, enregistrements, tous les
